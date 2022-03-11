@@ -1,0 +1,154 @@
+.supplier {
+    flex: 4;
+    padding: 20px;
+  }
+  
+  .supplierTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .supplierAddButton {
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .supplierContainer {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .supplierShow {
+    flex: 1;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  }
+  
+  .supplierUpdate {
+    flex: 2;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    margin-left: 20px;
+  }
+  
+  .supplierShowTop {
+    display: flex;
+    align-items: center;
+  }
+  
+  .supplierShowImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .supplierShowTopTitle {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  
+  .supplierShowUsername {
+    font-weight: 600;
+  }
+  
+  .supplierShowUserTitle {
+    font-weight: 300;
+  }
+  
+  .supplierShowBottom{
+      margin-top: 20px;
+  }
+  
+  .supplierShowTitle {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(175, 170, 170);
+  }
+  
+  .supplierShowInfo{
+      display: flex;
+      align-items: center;
+      margin: 20px 0px;
+      color: #444;
+  }
+  
+  .supplierShowIcon{
+      font-size: 16px !important;
+  }
+  
+  .supplierShowInfoTitle{
+      margin-left: 10px;
+  }
+  
+  .supplierUpdateTitle{
+      font-size: 24px;
+      font-weight: 600;
+  }
+  
+  .supplierUpdateForm{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 20px;
+  }
+  
+  .supplierUpdateItem{
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px;
+  }
+  
+  .supplierUpdateItem>label{
+      margin-bottom: 5px;
+      font-size: 14px;
+  }
+  
+  .supplierUpdateInput{
+      border: none;
+      width: 250px;
+      height: 30px;
+      border-bottom: 1px solid gray;
+  }
+  
+  .supplierUpdateRight{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+  }
+  
+  .supplierUpdateUpload{
+      display: flex;
+      align-items: center;
+  }
+  
+  .supplierUpdateImg{
+      width: 100px;
+      height: 100px;
+      border-radius: 10px;
+      object-fit: cover;
+      margin-right: 20px;
+  }
+  
+  .supplierUpdateIcon{
+      cursor: pointer;
+  }
+  
+  .supplierUpdateButton{
+      border-radius: 5px;
+      border: none;
+      padding: 5px;
+      cursor: pointer;
+      background-color: darkblue;
+      color: white;
+      font-weight: 600;
+  }
